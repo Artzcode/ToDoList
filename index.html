@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ToDo List</title>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+		<!-- JS -->
+		<script type="text/javascript" src="main.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+
+			<form id="addTask" method="post">
+
+				<div class="input-group">
+				    <input class="form-control" type="date" name="date" placeholder="dd/mm/yyyy">
+					<input class="form-control" type="text" name="name" placeholder="Who ?">
+					<input class="form-control" type="text" name="todo" placeholder="What ?">
+				  	<div class="input-group-append">
+		    			 <input class="btn btn-dark" type="submit" name="submit" value="Add">
+			  	    </div>
+				</div>
+
+			</form>
+
+			<div class="todo">
+				<h1>My ToDo List</h1>
+				<ul id="mylist" class="list-group list-group-flush">
+					<!-- todo list here -->
+				</ul>
+			</div>
+
+			<button id="clearall" class="btn btn-danger btn-sm">Clear All</button>
+			<span id="btns">
+				<!-- some btns here -->
+			</span>
+
+			<div class="velib">
+				<button id="getVelib" class="btn btn-success">Tell me how many Velib are available...</button>
+			</div>
+
+		</div>
+
+	</body>
+</html>

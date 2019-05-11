@@ -1,0 +1,24 @@
+.container{
+	margin-top: 50px;
+}
+.delete-done{
+	margin-left: 20px;
+}
+.todo{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/* ckeck a task*/
+.true{
+	text-decoration: line-through;
+	color: #27ae60
+}
+.true:hover{
+	text-decoration: line-through!important; /* to correct bootstrap */
+}
+.io{
+	height: 12px;
+}
+.velib{
+	margin-top: 20px;
+}
